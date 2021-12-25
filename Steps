@@ -1,0 +1,5 @@
+az login
+run terraform init
+run terraform apply --auto-approve
+
+#never upload real project to git repo, include .tfstate - just for demo
